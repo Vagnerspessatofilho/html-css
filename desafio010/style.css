@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+:root {
+    --color1: #e8f1f2;
+    --color2: #1B98E0;
+    --color3: #247BA0;
+    --color4: #006494;
+    --color5: #13293D ;
+}
+header {
+background-color: #13293D;
+ text-align: center;
+ margin: 3px 3px 0px 3px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+header > h1 {
+color: white;
+text-shadow: 2px 2px black;
+
+}
+header > p {
+    color: var(--color4);
+    margin: 4px;
+    padding: 3px; 
+    margin: auto;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav {
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.458);
+    background-color: #13293D;
+    margin: 0px 3px 3px 3px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+nav > a:hover {
+    background-color: #1574ab;
+    color: #247BA0;
+}
+iframe {
+    margin: 15px;
+}
+
+body {
+    background-color: #5e5ee1;
+}
+
+#motortesla {
+    width: 300px;  
+    margin: 2px;
+}
+h1 {
+
+}
+main {
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.321);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main > article > img {
+    width: 100%;
+    
+}
+div.video {
+    position: relative;
+    padding-bottom: 50%;
+    
+}
+div.video > iframe {
+    margin: 0%;
+    position: absolute;
+    top: 5% ;
+    right: 15%;
+    width: 90%;
+    height: 90%;
+
+}
+main > article > h1 {
+    color: var(--color4);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1em;
+    
+}
+main > h2 {
+    background-color: #1B98E0 to transparent;
+}
+iframe {
+    max-width: 600px;
+    width: 100%;
+}
+aside {
+    background-color: rgba(137, 255, 255, 0.432);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.201);
+}
+aside > h2 {
+    margin: -10px -10px 0px -10px;
+    padding: 0px;
+    background-color: aqua;
+    border-radius: 10px 10px 0px 0px;
+}
